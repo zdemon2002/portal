@@ -1,5 +1,6 @@
 
 <?php
+//Here is the secret : U are the best
 require_once "config.php";
 // mysql_select_db();
 session_name("hod");
