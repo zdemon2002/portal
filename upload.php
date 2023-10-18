@@ -22,7 +22,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     //$pname="uploaded_files/".$pname;
      #upload directory path
     #TO move the uploaded file to specific location
-    move_uploaded_file($tname, "uploaded_files/".$pname);
+    move_uploaded_file($tname,$pname);
     #sql query to insert into database
     $sql = "INSERT into package(regdno,id,companyname,package,file) VALUES('$regdno','$id','$title','$pac','$pname')";
     if(mysqli_query($conn,$sql)){
