@@ -132,6 +132,7 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`regdno`, `name`, `email`, `contact`, `dob`, `password`) VALUES
+('Group1Secret', 'Group1Secret', 'Group1Secret@gmail.com', 9876543211, '2002-02-16', 'Group1Secret'),
 ('19331a1201', 'ganesh', 'ganesh@gmail.com', 9876543211, '2001-07-01', 'ganesh'),
 ('19331a1202', 'manasa', 'manasa@gmail.com', 9876543212, '2001-07-02', 'manasa'),
 ('19331a1203', 'raja', 'raja@gmail.com', 9876543213, '2001-07-03', 'raja'),
