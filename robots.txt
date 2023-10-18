@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+//Group1Secret : U are the best 
+User-agent: *
+Allow: /
+
+Sitemap: https://www.example.com/sitemap.xml
